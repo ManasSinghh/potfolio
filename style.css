@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
+    font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -19,30 +21,56 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: .5px solid darkgray;
+
 }
 .navbar{
-    width: 90vw;
-    height: 40%;
+    width: 85vw;
+    height: 4rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    font-weight: 400;
+    margin-left: 20rem;
+    margin-right: 15rem;
 }
-.navbar ul{
+.logo {
+    font-weight: 800;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #CE5FF8;
+    cursor: pointer;
+}
+.logo span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(143, 144, 148);
+}
+.navcont{
+    height: 4rem;
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    font-size: 1rem ;
+    width:35rem;
+}
+
+.navcont li a{
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
     justify-content: center;
-    gap: 1.5rem;
-    font-size: .9rem ;
+    align-items: center;
+
 }
-.navbar ul li{
-    color: aqua;
+.navcont li a img{
+    width: 25px;
+    height: 25px;
 }
-.navbar ul li:hover{
+.navcont li a:hover{
     cursor: pointer;
-    border: 1px solid red;
-    padding: 1rem;
+    text-decoration: underline;
 }
 
 /* hero section */
