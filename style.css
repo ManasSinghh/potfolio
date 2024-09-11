@@ -101,10 +101,9 @@ body {
   height: 30rem;
   display: flex;
   flex-direction: column;
-}
-.intro{
   font-size: 2rem;
 }
+
 .hero-name{
     color: white;
     font-size: 3rem;
