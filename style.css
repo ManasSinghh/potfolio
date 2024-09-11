@@ -121,7 +121,7 @@ body {
   height: 3rem;
 }
 .social div a{
-  border:1px solid #3CCF91 ;
+  border:2px solid #3CCF91 ;
   border-radius: 50%;
   display: flex;
   justify-content: center;
