@@ -35,7 +35,7 @@ body {
   justify-content: center;
 }
 .navbar {
-  width: 85%;
+  width: 60%;
   height: 4rem;
   display: flex;
   justify-content: space-between;
@@ -43,6 +43,7 @@ body {
   font-weight: 400;
   margin-left: 20rem;
   margin-right: 15rem;
+  border-bottom: 0.5px solid rgb(30, 32, 41);
 }
 .logo {
   font-weight: 800;
@@ -63,7 +64,7 @@ body {
   justify-content: flex-start;
   gap: 2.5rem;
   font-size: 1rem;
-  width: 35rem;
+  width: 20rem;
 }
 
 .navcont li a {
