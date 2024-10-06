@@ -93,7 +93,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid darkgray;
+  border-bottom: 0.5px solid rgb(30, 32, 41);
   
 }
 .intro {
@@ -136,130 +136,45 @@ body {
   width: 30px;
 }
 
-
-/* buttons */
-.btn {
-  margin-top: 1.5rem;
-  text-decoration: none;
-}
-.btn a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.1rem;
-}
-.btnhire {
-  margin-right: 0.5rem;
-  padding: 0.4rem 0.5rem;
-  border-radius: 5px;
-  border: 1px solid lightcoral;
-  background-color: lightcoral;
-}
-.btndownload {
-  padding: 0.4rem 0.5rem;
-  border: 1px solid #3CCF91;
-  border-radius: 5px;
-}
-
-/* about me h2 */
-.section-heading {
-  width: 100%;
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.section-heading h2 {
-  color: white;
-  text-align: center;
-  line-height: 2.25rem;
-  font-size: 1.87rem;
-  width: 100%;
-}
-
 /* about me section content */
 .about-container {
   width: 100%;
   height: 27rem;
+  margin-left: 20rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border-bottom: 0.5px solid darkgray;
-}
-.info {
-  width: 25rem;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.name {
-  color: white;
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  gap: 0.5rem;
+  border-bottom: 0.5px solid rgb(30, 32, 41);
 }
-.name p:nth-child(1) {
-  font-size: 2rem;
+.section-heading {
+  height: 3rem;
 }
-.name p:nth-child(2) {
-  font-size: 1.2rem;
-  color: rgb(202, 44, 44);
-}
-
-.other-details {
+.section-heading p {
   color: white;
+  line-height: 2.25rem;
+  font-size: 1.87rem;
+  width: 100%;
+}
+.info{
+  width: 32rem;
+}
+.name p{
+  color: #737477;
+}
+.other-details {
+  color: #737477;
   height: 5rem;
   display: flex;
   gap: 1rem;
   width: 30rem;
 }
-.other-details p {
-  line-height: 1.5rem;
-  font-size: 1rem;
-  color: aqua;
-}
-.location {
-  border: 0.5px solid white;
-  border-radius: 5px;
-  width: 5rem;
-  text-align: center;
-  padding: 1rem;
-  width: 9rem;
-}
-.age {
-  border: 0.5px solid white;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-.experience {
-  border: 0.5px solid white;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-.projects {
-  border: 0.5px solid white;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-
 .detailed-info {
-  color: white;
+  margin-top:1rem ;
+  color: #737477;
   line-height: 1.5rem;
   font-size: 1.2rem;
-  width: 31rem;
+  width: 30rem;
 }
 
 /* tech stack container */
@@ -269,8 +184,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 0.5px solid darkgray;
-  gap: 1rem;
+  border-bottom: 0.5px solid rgb(30, 32, 41);
+    gap: 1rem;
   flex-wrap: wrap;
 }
 .stacks {
